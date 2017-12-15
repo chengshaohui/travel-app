@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<script src="./js/rem.js"></script>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/swiper.jquery.min.js"></script>
+</head>
+<body>
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide back back1">
+				<img src="img/back3.jpg" alt="">
+				<div class="text">
+					<p>冰岛</p>
+					<p>世界上最活跃的火山地区之一</p>
+					<p>冰与火之国</p>
+				</div>
+			</div>
+			<div class="swiper-slide back">
+				<img src="img/back2.jpg" alt="">
+				<div class="text">
+					<p>新西兰南岛</p>
+					<p>世界第十二大岛屿</p>
+					<p>海岸线长6900千米，有许多美丽的海滩</p>
+				</div>
+			</div>
+			<div class="swiper-slide back">
+				<img src="img/back1.jpg" alt="">
+				<div class="text">
+					<p>西伯利亚铁路</p>
+					<p>世界上最壮观的铁路之一</p>
+					<p>总长9288公里，跨越8个时区</p>
+					<div class="tiyan">
+						<a href="1.html">
+							立即体验
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+</body>
+</html>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30
+    });
+</script>

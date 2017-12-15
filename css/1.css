@@ -1,0 +1,203 @@
+/*
+* @Author: yan
+* @Date:   2017-10-05 14:39:47
+* @Last Modified by:   yan
+* @Last Modified time: 2017-10-05 22:00:55
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: "微软雅黑","宋体",sans-serif;
+    box-sizing: border-box;
+}
+body{
+	border: 0;
+	/* height: auto; */
+	/* overflow: hidden; */
+	background: #f4f4f4;
+}
+img{
+	border: 0;
+}
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 46px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: calc(100vh-46px);
+	/* position: relative; */
+	/* overflow: hidden; */
+}
+
+#scroller {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	transform: translateZ(0);
+	user-select: none;
+	text-size-adjust: none;
+}
+#header{
+	background: #282828;
+	width: 100%;
+	height: 0.96rem;
+	display: flex;
+	position: fixed;
+    justify-content: space-between;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.head-left{
+	width: 0.96rem;
+	height: 100%;
+	padding: 0.27em 0.32em;
+}
+.head-left a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.icon-sousuo{
+	display: block;
+	font-family: 'iconfont';
+	font-size: .4rem;
+	color: #fff;
+}
+.head-mid{
+	width: 2.08rem;
+	height: 100%;
+	display: flex;
+    justify-content: space-between;
+}
+.head-mid a{
+	display: block;
+	font-size: 0.3em;
+	line-height: 2.96em;
+	color: #7e7e7e;
+	transition: all 0.5s;
+}
+.head-mid .hot{
+	color: #fff;
+}
+.head-right{
+	width: 0.96rem;
+	height: 100%;
+	padding: 0.27em 0.32em;
+}
+.icon-gerenzhongxinxia{
+	display: block;
+	font-family: 'iconfont';
+	font-size: .4rem;
+	color: #fff;
+}
+.banner{
+	/* margin-top: 0.96em; */
+	width: 100%;
+	height: 3.01em;
+	/* background: yellow; */
+	margin-bottom: 0.19em;
+}
+.banner a{
+	display: block;
+	width: 100%;
+	height: 3.01em;
+}
+.banner a img{
+	display: block;
+	width: 100%;
+	height: 3.01em;
+}
+.swiper-container{
+	position: relative;
+}
+.swiper-container .swiper-pagination{
+	position: absolute;
+	bottom: 0.01em;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.neirong{
+	border-top: 0.01em solid #d9d9d9;
+	border-bottom: 0.01em solid #d9d9d9;
+	width: 100%;
+	height: 2em;
+	margin-bottom: 0.19em;
+	/* background: yellow; */
+	display: flex;
+	justify-content: space-between;
+}
+.neirong a{
+	width: 49.9%;
+	height: 100%;
+	background: #fff;
+	padding-left: 0.32em;
+	padding-top: 0.38em;
+	display: flex;
+}
+.neirong p:first-of-type{
+	font-size: 0.3em;
+	color: #4c4c4c;
+	margin-bottom: 0.13em;
+}
+.neirong p:last-of-type{
+	font-size: 0.22em;
+	color: #999;
+}
+.neirong .text{
+	width: 65%;
+	height: 100%;
+}
+.neirong .pic{
+	width: 35%;
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+}
+.icon-yuebing39-copy{
+	font-family: "iconfont";
+	font-size: 1em;
+}
+.word{
+	margin-bottom: 0.19em;
+	display: block;
+	width: 100%;
+	height: 5.47em;
+	/* background: yellow; */
+	border-bottom: 0.01em solid #d9d9d9;
+}
+.word .pic{
+	width: 100%;
+	height: 60%;
+}
+.word .pic img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.word .title{
+	background: white;
+	width: 100%;
+	height: 40%;
+	padding: 0.4em 0.32em;
+}
+.title p:first-of-type{
+	font-size: 0.32em;
+	color: black;
+	letter-spacing: 0.01em;
+	margin-bottom: 0.38em;
+}
+.title p:nth-of-type(2){
+	font-size: 0.26em;
+	color: #4c4c4c;
+	margin-bottom: 0.45em;
+}
+.title p:nth-of-type(3){
+	font-size: 0.26em;
+	color: #999;
+}
